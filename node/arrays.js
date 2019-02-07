@@ -14,9 +14,15 @@ array[1] = 'hello';
 
 // for practice
 
+for (a in array) console.log(a);
+
 // use forEach
 
+array.forEach( (a) => console.log(a) );
+
 // use map
+
+const whatever = array.map()
 
 // use pop
 
